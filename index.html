@@ -11,11 +11,15 @@
             padding: 0;
             box-sizing: border-box;
         }
-        section{
-            margin: 2rem;
+        section.header{
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
         }
         .shorts{
             width: 90%;
+            margin: 0 auto;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -24,12 +28,13 @@
             gap: 32px;
         }
         figcaption{
-            font-size: 20px;
+            font-size: 18px;
             font-family: 'Montserrat';
             padding-top: 1rem;
             flex: 1 ;
         }
         img{
+            width: 250px;
             transition: transform 1s;
         }
         img:hover{
@@ -50,7 +55,7 @@
 
 <body>
     <header></header>
-    <section>
+    <section class="header">
         <h3>Descubre lo que tenemos y empecemos a diseñar juntos:</h3>
     </section>
     <section>
