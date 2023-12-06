@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 0px 8px;
+        }
+        section{
+            padding: 2rem 0px;
+        }
+        .shorts{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        figcaption{
+            font-size: 20px;
+            font-family: 'Montserrat';
+            padding-top: 1rem;
+        }
+        img{
+            transition: transform 1s;
+        }
+        img:hover{
+            outline: 2px solid #303439;
+            border-radius: 24px;
+            transform: scale(1.02,1.02);
+            cursor: pointer;
+            animation-duration: 600ms;
+        }
+      
+
+        h3{
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Montserrat';
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <section>
+        <h3>Descubre lo que tenemos y empecemos a diseñar juntos:</h3>
+    </section>
+    <section>
+        <div class="shorts">
+            <figure>
+                <img src="Foundations.png" alt="Fundamentos">
+                <figcaption>Fundamentos</figcaption>
+            </figure>
+            <figure>
+                <img src="Components.png" alt="Componentes">
+                <figcaption>Componentes</figcaption>
+            </figure>
+            <figure>
+                <img src="Guidalines.png" alt="Lineamientos">
+                <figcaption>Lineamientos</figcaption>
+            </figure>
+        </div>
+    </section>
+</body>
+
+</html>
